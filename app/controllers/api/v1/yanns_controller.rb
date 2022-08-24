@@ -1,4 +1,4 @@
-class YannsController < ApplicationController
+class Api::V1::YannsController < ApplicationController
   before_action :set_yann, only: %i[ show update destroy ]
 
   # GET /yanns
